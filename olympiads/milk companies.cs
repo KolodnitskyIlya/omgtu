@@ -1,14 +1,13 @@
 ﻿using System;
 class HelloWorld
 {
+    static double F(string Z) // функция для преобразования строковых элементов в вещественные числа
+    {
+        return Convert.ToDouble(Z); 
+    }
+
     static void Main()
     {
-
-        static double F(string Z) // функция для преобразования строковых элементов в вещественные числа
-        {
-            return Convert.ToDouble(Z);
-        }
-
 
         Console.WriteLine("Введите кол-во фирм:");
         int N = Convert.ToInt32(Console.ReadLine());
