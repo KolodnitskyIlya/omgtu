@@ -1,4 +1,11 @@
-﻿using System.Reflection.Metadata;
+﻿//Имеется трасса. Найти самый короткий путь.
+//Перемещаться только вниз.
+//Никаких списков и массивов.
+//Ввод: n интервалов, t - длина схода
+//a1, b1; a2, b2; ...; a_n; b_n;
+//Задача на поиск локального минимума.
+
+using System.Reflection.Metadata;
 using System;
 class HelloWorld
 {
