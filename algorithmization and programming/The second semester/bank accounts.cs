@@ -32,7 +32,7 @@ public static class Program
             new Account(2, "Ashley Powell", 67123, 67123),
             new Account(3, "Stacy Thompson", 10400, 106400),
             new Account(4, "Carol Schmidt", 61234, 59321),
-            new Account(4, "Amanda Maldonado", 55654, 1654)
+            new Account(5, "Amanda Maldonado", 55654, 1654)
         };
 
         Console.WriteLine("Счета с отрицательным балансом:");
