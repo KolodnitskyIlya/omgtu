@@ -53,8 +53,6 @@ public static class Program
 
         Console.WriteLine($"Количество счетов с положительным балансом: {query2.Count()} \n");
 
-        //Account item = Accounts.MaxBy(x => x.income);
-
         var query3 = from account in Accounts
                      let x = Accounts.Max(x => x.income)
                      where (account.income == x)
